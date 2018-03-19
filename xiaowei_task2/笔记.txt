@@ -1,1 +1,10 @@
 ﻿align-itema:center;//框架内元素上下左右居中对齐
+*{
+	margin:0px;
+	padding:0px;
+}之后 li的 前标都脱离框架了
+
+把表格系统自带边框去掉border-collapse:collapse;
+文字太靠边 缩进一点 text-indent: 1em;
+
+vertical-align:top;

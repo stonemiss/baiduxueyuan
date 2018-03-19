@@ -1,7 +1,7 @@
-*{
+/**{
 	margin: 0;
 	padding: 0;
-}
+}*/
 body{
 	background-color: #f6f6f6;
 	font-family: "微软雅黑";
@@ -14,10 +14,13 @@ header{
 	left: 0px;
 	width: 100%;
 	height: 60px;
-	background-color: #fff;
+	background-color: #353c44;
 	box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
 	/*align-items: center;居中对齐 不知道为什么没起作用 所以我把文字行高设成了header的高*/
 	z-index: 10;
+}
+header h1,header ul{
+	margin: 0 auto;
 }
 header nav li{
 	list-style: none;
@@ -25,11 +28,17 @@ header nav li{
 	padding: 0 20px;
 	line-height: 60px;
 }
+header nav li a{
+	color: #00a0e9;
+}
+header nav li a:hover{
+	color: #00afff;
+}
 header h1{
 	display: inline-block;
 	margin-left: 20px;
 	line-height:60px;
-	color: #00a0e9
+	color: #00a0e9;
 }
 header nav{
 	float: right;
@@ -39,3 +48,65 @@ header nav{
 
 
 /*主体内容---------------*/
+main{
+	width: 1200px;
+	margin: 80px auto 0;
+}
+h3{
+	color: #666;
+}
+section{
+	border: solid #999 1px;
+	margin-top: 20px;
+	padding: 10px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.2)
+}
+section .time{
+	color: #999;
+}
+section .pic_all{
+	margin-left: 20px;
+}
+section .pic_all .pic_num{
+	width: 220px;
+	border: 1px solid #a0a0a0;
+	padding: 10px;
+	text-align: center;
+	margin-top: 10px;
+}
+section .pic_all .pic_num img{
+	width: 200px;
+}
+ ul li{
+	list-style: none;
+}
+
+section table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	text-indent: 1em;
+	border: #8de8ff;
+}
+section table th{
+	background-color: #5fd1ee;
+	color: #fff;
+}
+
+/*侧边栏----------------------------*/
+form{
+	margin: 0 auto;
+	width: 600px;
+}
+form label{
+	display: inline-block;
+	text-align: right;
+	width: 160px;
+	margin-top: 10px;
+	vertical-align: top; /*垂直对齐*/
+}
+form .formtext{
+	margin-left: 170px;
+	color: #e0e0e0;
+	margin-bottom: 0px;
+}
