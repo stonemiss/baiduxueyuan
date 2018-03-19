@@ -1,0 +1,1 @@
+﻿align-itema:center;//框架内元素上下左右居中对齐
