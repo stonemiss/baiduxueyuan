@@ -8,3 +8,6 @@
 文字太靠边 缩进一点 text-indent: 1em;
 
 vertical-align:top; 顶对齐
+
+
+有意思的是 margin 上下方向是会重叠的，左右会相加。
