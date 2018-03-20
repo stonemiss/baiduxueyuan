@@ -7,4 +7,4 @@
 把表格系统自带边框去掉border-collapse:collapse;
 文字太靠边 缩进一点 text-indent: 1em;
 
-vertical-align:top;
+vertical-align:top; 顶对齐
