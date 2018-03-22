@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+main,.left,.center,.right,.left2,.center2,.right2,img{
+	border: 1px solid #666;
+}
+main{
+	position: relative; /*模式一的流体模式不需要*/
+	background-color: #eee;
+	margin: 20px;
+	padding: 20px;
+	overflow: auto;
+}
+h4{ margin-top: 0px; }
+.left{
+	width: 180px;
+	padding: 20px;
+	overflow: auto;
+	float: left;
+}
+.right{
+	float: right;
+	width: 120px;
+}
+.left img,.left2 img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	left: 0;
+	top: 0;
+}
+.name{
+	margin-left: 100px;
+}
+
+
+.pic{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
+.right img,.right2 img{
+	width: 80px;
+	height: 80px;
+}
+.center, .center2{
+	padding: 20px;
+	margin: 0 142px 0 242px;
+}
+
+/*绝对定位*/
+.left2{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 180px;
+	padding: 20px;
+	overflow: auto;
+
+}
+.right2{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
