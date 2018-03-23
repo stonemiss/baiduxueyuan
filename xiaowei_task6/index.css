@@ -1,0 +1,52 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #eee;
+}
+main{
+	margin: 0 auto;
+	width: 892px;
+	padding: 0px 44px;
+	background-color: #fff;
+}
+
+/*头部----------------------*/
+header{
+	position: relative;
+	height: 61px;
+	border-bottom: 2px solid #938e8c;
+}
+header .logo{
+	position: relative;
+	width: 100px;
+	height: 100%;
+	background-color: #d45d5c;
+	
+}
+header span{
+	line-height: 1em;
+	font-family: "黑体";
+	font-size: 12px;
+}
+header .logo span{
+	position: absolute;
+	left: 1em;
+	bottom: 4px;
+	color: #fff;
+}
+header .time{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	color: #d45d5c;
+}
+
+/*内容上部分----------------------------*/
+.top{
+	margin-top: 44px;
+}
+.top_left{
+	width: 641px;
+	height: 301px;
+	background-image: url(top1.png);
+}
